@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: student-audit
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/eschool
+    username: root
+    password: pankaj123
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+    
+    
+server:
+  port: 9080
